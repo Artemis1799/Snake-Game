@@ -12,3 +12,5 @@ Next, you need to activate the display and capture of keyboard inputs by going t
 In the 'BitMap Display' tool, select a 256x256 pixel square window with a pixel size of 16x16.
 Don't forget to link the two widgets to your MIPS code.
 Finally, all that's left to do is run your programme and interact using the keyboard inputs.
+
+Don't hesitate to contact us if you have any criticisms or questions!
