@@ -182,9 +182,9 @@ blt $t2, 20, continue
 li $t2, 0
 continue:
 
-# On genere un nombre aleatoire entre 0 et taille du tableau rainbow ( qui est de 6 ici mais elle peut augmenter si on ajoute des nouvelles couleurs)
+# On genere un nombre aleatoire entre 0 et taille du tableau rainbow ( qui est de 9 ici mais elle peut augmenter si on ajoute des nouvelles couleurs)
 # comme la couleur du serpent change � chaque iteration
-# On genere le nombre al�atoire grace au syscall avec v0 = 42,	
+# On genere le nombre aleatoire grace au syscall avec v0 = 42,	
 genRand:
 li $a1, 9
 li $v0, 42
